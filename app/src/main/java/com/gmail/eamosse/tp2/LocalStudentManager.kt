@@ -20,4 +20,35 @@ class LocalStudentManager : StudentManager {
     Etudiant(name = "John10", code = "A10", sexe = "F", address = "Lilles", age = 56),
     )
      */
+    override fun listOf10(): List<Student> {
+        TODO("Not yet implemented")
+    }
+
+    override fun sortAgeAscDesc(type: String): List<Student> {
+        TODO("Not yet implemented")
+    }
+
+    override fun groupBySex(): Map<String, List<Student>> {
+        TODO("Not yet implemented")
+    }
+
+    override fun boysOrGirls(sexe: String): List<Student> {
+        TODO("Not yet implemented")
+    }
+
+    override fun onlyNames(): List<String> {
+        TODO("Not yet implemented")
+    }
+
+    override fun deleteBySex(sex: String) {
+        TODO("Not yet implemented")
+    }
+
+    override fun reverse(): List<Student> {
+        TODO("Not yet implemented")
+    }
+
+    override fun clear() {
+        TODO("Not yet implemented")
+    }
 }
